@@ -7,3 +7,6 @@ plugins {
 	alias(libs.plugins.kotlinx.serizliation) apply false
 //	alias(libs.plugins.decoroutinator) apply false
 }
+repositories {
+    maven { url 'https://jitpack.io' }
+}

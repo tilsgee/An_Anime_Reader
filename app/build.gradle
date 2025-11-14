@@ -126,6 +126,9 @@ dependencies {
 	implementation("com.github.KotatsuApp:kotatsu-parsers:$parsersVersion") {
 		exclude group: 'org.json', module: 'json'
 	}
+        {
+            implementation 'com.github.woheller69:FreeDroidWarn:V1.6'
+        }
 
 	coreLibraryDesugaring libs.desugar.jdk.libs
 	implementation libs.kotlin.stdlib
